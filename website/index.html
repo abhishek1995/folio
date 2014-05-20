@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="shortcut icon" href="http://web.iiit.ac.in/~arun.jvs/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Homepage</title>
+    <link href='http://fonts.googleapis.com/css?family=Orbitron: 900' rel='stylesheet' type='text/css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/layout.css" rel="stylesheet" />
+
+    <style type="text/css">
+
+      /* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 60px;
+      }
+      #footer {
+        background-color: #f5f5f5;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+     .container {
+        width: 1100px;
+        max-width: 2000px;
+        height: 42px;
+      }
+      .container .credit {
+        margin: 0px;
+      }
+
+    </style> 
+
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet"/>
+    <script type="text/javascript">
+      $(function(){
+        $('#myCarousel').carousel({interval: false});
+        });
+    </script>
+
+  </head>
+  <body id="home"  style="background-color:#060606;" data-spy="scroll" data-target=".fixednav">
+    <div  class="container"><br/>
+      <div id="fixednavigator" class="invisible fixednav">
+        <ul class="nav nav-pills centralized">
+          <li><a href="#home"><i class="icon-home icon-white"></i>&nbsp;Home</a></li>
+          <li><a href="#about"><i class="icon-user icon-white"></i>&nbsp;About</a></li>
+          <li><a href="#apps"><i class="icon-folder-open icon-white"></i>&nbsp;Apps and Projects</a></li>
+          <li><a  data-toggle="popover" data-placement="bottom" trigger="click" title="Coming Soon!"  class="muted"><i class="icon-file icon-white"></i>&nbsp;Resume</a></li>
+          <li><a href="#connect"><i class="icon-retweet icon-white"></i>&nbsp;Connect with Me</a></li>
+        </ul>
+      </div><!--fixednavigator-->
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li  class="active"><a href="#home"><i class="icon-home icon-white"></i>&nbsp;Home</a></li>
+          <li><a href="#about"><i class="icon-user icon-white"></i>&nbsp;About</a></li>
+          <li><a href="#apps"><i class="icon-folder-open icon-white"></i>&nbsp;Apps and Projects</a></li>
+          <li><a href="#" data-toggle="popover" data-placement="bottom" trigger="click" title="Coming Soon!"  class="muted"><i class="icon-file icon-white"></i>&nbsp;Resume</a></li>
+          <li><a href="#connect"><i class="icon-retweet icon-white"></i>&nbsp;Connect with Me</a></li>
+        </ul>
+        <h1 style="color: white; font-family: 'Orbitron', sans-serif; font-size: 60px;">Abhishek Jain</h1> 
+      </div> <!--masthead-->
+      <hr size= "2px"/> <br/>
+      <div class="container" style="background-color: #282828; border-radius: 10px; height: 450px"> <br/>
+        <!--<div class="row">-->
+          <div class="pull-left">
+            <div id="myCarousel" class="carousel slide span3" style="height: 350px; width: 308px; float: left;">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+              </ol>
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item"><img src="1.jpg" alt="My Pic"  style="height: 308px; width:308px"/></div>
+                <div class="item"><img src="2.jpg" alt="My Pic"  style="height: 308px; width:308px" /></div>
+    
+              </div><!--carousel-inner-->
+              <a class="carousel-control left" href="#myCarousel" data-slide-to="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div><!--myCarousel-->
+          </div><!--span3-->
+          <div style="color: white;" class="pull-right">
+            <div class="span8 intro pull-right">
+                <h1 style="text-align: center;">Hello World!</h1> <br/>
+                <h2 style="font-family: sans-serif; text-align: center;">I am a sophomore undergraduate student at the<br/><br/>
+                  <a href="http://www.iiit.ac.in" style="text-decoration: none;"><img src="logo.jpg" alt="IIIT Hyderabad" />&nbsp;International Institute of Information Technology, Hyderabad</a>.
+                </h2><br/><br/>
+                <p style="text-align:center"><a class="btn btn-danger btn-large" href="#about">Know More About Me <i class="icon-circle-arrow-down icon-white"></i></a></p>
+            </div><!-- /span8 -->
+          </div><!--pull-right color: white-->
+        <!--</div>--><!--row-->
+      </div><!--container #282828--> 
+    <!--</div><!--containerouter>-->
+
+    <br/><br/><br/><br/><br/>
+
+
+
+    <!--<div class="container">-->
+      <div id="about" class="row">
+        <div class="span12">
+          <h1 style="font-size: 50; color: white;">About Me</h1>
+          <br/><br/>
+          <p class="lead" style="color: #A8A8A8">Hello,<br/>I am <strong>Abhishek</strong>.<!-- M name means <em>'first ray of the morning sun'</em>.--> I am a second year undergraduate student at <a href="http://www.iiit.ac.in" style="text-decoration: none;">IIIT Hyderabad</a>, pursuing B.Tech in Computer Science .</p>
+          <p class="lead" style="color: #A8A8A8">The vast field of Computer Science excites me. I am interested in both theoretical and practical aspects of computer science. I am particularly fascinated by coding ,web designing and their applications. I wish to delve deeper into these areas in future. I enjoy writing programs and scripts for everyday tasks. In terms of web designing, I mainly know javascript, html, css and a little bit of php. </p>
+          <blockquote class="pull-left">
+            <p><h4 style="color: white;">Never let your schooling interfere with your education.</h4></p>
+            <small>Mark Twain</small>
+          </blockquote>
+          <!--p  class="lead" style="color: #A8A8A8">For all practical purposes, I am a geek (and a proud one too). I like exploring things on my own. Frankly, I have learnt more on my own than I've learnt at any school.</p-->
+        </div><!--span12-->
+      </div><!--about-->
+
+      <br/><br/><br/><br/><br/>
+      <div id="apps" class="row">
+        <div class="span12">
+          <h1 style="font-size: 50; color: white;">Apps and Projects</h1>
+
+          <br/><br/>
+          <ul>
+
+            <div class="span3">
+              <img src="QuestAN1.png" width="175">
+            </div>
+            <div class="span7" >
+              <h3 style="color: #006dcc">QuestAN <small class="subhead">&nbsp; An online Question-and-Answer portal for IIIT-H courses</small></h3>
+              <h5>Technologies used:<div style="color: #A8A8A8">web2py, HTML/CSS, JavaScript, jQuery</div></h5>
+              <p style="color: #A8A8A8">QuestAN is an online question-and-answer portal specially designed for IIIT-H students, where they can ask questions related to any of the courses offered at IIIT-H and have them answered by other students or the course TAs. This portal supports single sign-on through IIIT's <a href="http://login.iiit.ac.in">Central Authentication Service</a>.</p>
+            </div>
+            
+            <p style="line-height: 200px;">
+              <br/>
+           </p>
+
+
+        </div><!--span12-->
+      </div><!--apps-->
+
+      <br/><br/><br/><br/><br/>
+
+      <div id="connect" class="row">
+        <div class="span12">
+          <h1 style="font-size: 50; color: white;">Connect with Me</h1>
+          <div id="social" class="social">
+            <ul>
+              <!--<li><a id="facebook" rel="tooltip" data-original-title="Facebook" href="http://www.facebook.com/nprateek" target="_blank"><div class="facebook sprite"></div></a></li>-->
+              <li><a id="googleplus" data-toggle="tooltip" data-placement="bottom" title="Add me to your circle on Google+" href="https://plus.google.com/102382603696922908274" target="_blank"><div class="googleplus sprite" style="background: url(google_plus.jpeg) no-repeat 0 0;width: 250px;height: 250px;display: inline-block;"></div><!--div class="googleplus sprite" style="display:inline-block;"></div><img src="google_plus.jpeg" height=64px width=64px/--></a></li>              
+              
+              <li><a id="quora" data-toggle="tooltip" data-placement="bottom" title=" Follow me on Quora" href="http://www.quora.com/Abhishek-Jain-96" target="_blank"><div class="sprite" style="background: url(quora.jpeg) no-repeat 0 0;width: 250px;height: 250px;display: inline-block;"></div><!--div class="sprite" style="display:inline-block;"></div><img src="quora.jpeg" height=64px width=64px/--></a></li>
+
+              <!--li><a id="twitter" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" href="https://twitter.com/nis_prateek" target="_blank"><div class="sprite" style="background: url(./img/twitter.png) no-repeat 0 0;width: 64px;height: 64px;display: inline-block;"></div></a></li-->
+             
+              <li><a id="email" data-toggle="tooltip" data-placement="bottom" title="Send me an Email" href="mailto: abhishek.j@students.iiit.ac.in" target="_blank"><div class="sprite" style="background: url(email.jpeg) no-repeat 0 0;width: 250px;height: 250px;display: inline-block;"></div></a></li>
+              
+            </ul>
+            <!--<ul>
+              <li><a id="google+" rel="tooltip" data-original-title="Google+" href="https://plus.google.com/115912150316880712159/" target="_blank"><div class="googleplus sprite"></div></a></li--->
+          </div><!--social-->
+          <br/> 
+          <p class="lead pull-left " style="color: #A8A8A8; font-size: 16px"><i class=" icon-map-marker icon-white icon-large"></i> &nbsp;D-118 Old Boys' Hostel,<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IIIT Hyderabad (Andhra Pradesh), India. </p>
+          <p class="lead  pull-right" style="color: #A8A8A8; font-size: 16px"><i class="icon-signal icon-white"></i>&nbsp;+91-9160179920<br/><i class="icon-envelope icon-white"></i>&nbsp;abhishek.j@students.iiit.ac.in<p/>
+
+        </div><!--span12-->
+      </div><!--contact-->
+
+      <p style="line-height: 200px;">
+        <br/>
+      </p>
+
+
+
+    <div class="footer">
+      <p style="color: #A8A8A8">Created by Abhishek Jain &copy; 2013</p>
+    </div>
+
+
+
+
+
+
+
+
+
+    </div><!--container-->
+  
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/socialmedia.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script src="js/contact.js"></script>
+    <script>$('#googleplus').tooltip('show')</script>
+    
+    <script type="text/javascript">
+      $(window).scroll(function() {
+        if ($(window).scrollTop()>80) {
+          if ($('#fixednavigator').hasClass('invisible')) {
+              $('#fixednavigator').removeClass('invisible');
+          }
+          } else {
+            if (!$('#fixednavigator').hasClass('invisible')) {
+              $('#fixednavigator').addClass('invisible');
+            }
+          }
+      });     
+    </script>
+    <script>
+    $('#fixednavigator').scrollspy()
+    </script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41956602-1', 'iiit.ac.in');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </body>
+</html>

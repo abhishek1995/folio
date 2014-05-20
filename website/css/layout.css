@@ -1,0 +1,170 @@
+      .subhead {
+        color: #eee;
+      }
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 700px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+
+.fixednav {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  padding: 10px 0;
+  width:100%;
+  height: 35px;
+  z-index: 9999;
+  background-color: rgba(40, 40,40, 0.8);
+  color: rgba(1, 1, 1, 0.8);
+  /* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+}
+.centralized {
+  display: table;
+  margin: 0px auto;
+}
+.social {
+  width: 100%;
+  text-align: center;
+}
+#contace {
+  position:relative;
+  float: left;
+}
+.social ul li {
+  display: inline;
+    margin: 0px 10px 0;
+
+}
+#sound {
+  display: none;
+}
+.invisible {
+  display: none;
+}
+.sprite {
+
+  margin: 30px 0 0 0;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  /*-webkit-transition-property: background-position;
+  -moz-transition-property: background-position;
+  -o-transition-property: background-position;
+  transition-property: background-position;*/
+  opacity:0.7;
+  -webkit-box-reflect: below 0
+    -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255, 255, 255, 0.3)));
+
+}
+.sprite:hover {
+
+        -webkit-transform: scale(1.2);
+ -moz-transform:    scale(1.2);
+ -o-transform:      scale(1.2);
+ -ms-transform:     scale(1.2);
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+}
+.heighter {
+  height:60px;
+}
+
+.facebook {
+  background: url(./img/facebook64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  position: center;
+  display: inline-block;
+}
+
+.twitter {
+  background: url(./img/twitter64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.linkedin {
+  background: url(./img/linkedin64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.googleplus {
+  background: url(./img/googleplus64.jpg) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+
+
+.skype {
+  background: url(./img/skype64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+.email {
+  background: url(./img/email64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.youtube {
+  background: url(./img/youtube64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+/*.share {
+  background: url(../img/icons64/share64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}
+
+.add {
+  background: url(../img/icons64/add64.png) no-repeat 0 0;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+}*/
+
